@@ -2,9 +2,9 @@ import './CampoTexto.css'
 
 const CampoTexto = (props) => {
 
-    const placeholderModificada = `${props.placeholder}...` 
+    const placeholderModificada = `${props.placeholder}...`
 
-    let valor = 'Guilherme Silveira'
+    let valor = 'Israel Silva'
 
     const aoDigitado = (evento) => {
         valor = evento.target.value
